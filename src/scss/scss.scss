@@ -1,1 +1,35 @@
-@import url("./_const.scss");
+@import "./_const.scss";
+@import "./header.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+
+  background-color: $background_color;
+}
+
+.wrapper {
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.attention__color {
+  background-color: $color_1;
+}
