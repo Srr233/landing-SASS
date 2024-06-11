@@ -1,10 +1,12 @@
 @import "./_const.scss";
 @import "./header.scss";
+@import "./main.scss";
 
 * {
   margin: 0;
   padding: 0;
   border: none;
+  color: #fff;
 }
 
 body {
@@ -19,6 +21,8 @@ body {
 .wrapper {
   max-width: 1640px;
   margin: 0 auto;
+  padding: 0;
+  position: relative;
 }
 
 li {
@@ -32,4 +36,10 @@ a {
 
 .attention__color {
   background-color: $color_1;
+}
+
+@media screen and (max-width: 1660px) {
+  .wrapper {
+    padding: 0 20px 0 20px;
+  }
 }
